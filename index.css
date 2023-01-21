@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+}
+.class{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 2.5em;
+    font-style: italic;
+    background-attachment: fixed;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(255, 47, 82), yellow );
+}
+
+.task{
+    border-style: black;
+    background-image: linear-gradient(to right, rgb(255, 47, 82), yellow );
+    padding: 20px;
+    margin: 100px;
+    width:390px;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.0em;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.list{
+    padding: 10px;
+    margin: 100px;
+    width:390px;
+    height: 300px;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    text-align: left;
+    font-size: 1.7em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(238, 235, 235);
+}
+.edit{
+    margin-left: 190px;
+    background-color: rgb(238, 235, 235);
+    border: none;
+    font-size: 22px;
+    text-align: left;
+    color: rgb(192, 190, 59);
+}
+.edit:hover{
+    color: black;
+    font-size: 23px;
+}
+
+.trash{
+    background-color: rgb(238, 235, 235);
+    margin-left: 5px;
+    border: none;
+    font-size: 22px;
+    text-align: left;
+    color: rgb(255, 47, 82) ;
+}
+.trash:hover{
+    color: black;
+    font-size: 23px;
+}
+.button{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.button:hover{
+    font-size: 15px;
+}
+#plus{
+    background-image: linear-gradient(to right, rgb(255, 47, 82), yellow );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-color: black;
+    border: none;
+    font-size: 50px;
+    margin-left: 1450px;
+    
+}
+#plus:hover{
+    font-size: 55px;
+}
